@@ -15,7 +15,7 @@ import javax.swing.JFrame;
 public class TelaPrincipal extends JFrame {
 
     public TelaPrincipal(){
-        setTitle("INVENTÁRIO");
+        setTitle("INVENTï¿½RIO");
         setSize(900, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);

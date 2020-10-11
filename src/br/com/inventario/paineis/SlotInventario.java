@@ -41,7 +41,7 @@ public class SlotInventario extends JPanel {
     	int index = sortear.nextInt(9);
     	String[] nomeImg = {"item1.png", "item2.gif", "item3.png", "item4.png", "item5.png", "item6.png", "item7.png", "item8.png", "item9.png"};
     	JLabel label = new JLabel();
-    	ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("br//com//inventario//images//"+nomeImg[index]));
+    	ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("br/com/inventario/images/"+nomeImg[index]));
     	label.setIcon(icon);
     	add(label);
     	setVazio(false);

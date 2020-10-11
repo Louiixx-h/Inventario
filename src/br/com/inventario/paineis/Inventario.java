@@ -36,8 +36,8 @@ public class Inventario extends JPanel {
     public void adicionarSlots() {
     	quantidadeSlot(getTotalSlots());
 	        for(SlotInventario slot : Inventario.getSlots()){
-	        	SlotInventario espaço = slot;
-		        add(slot);
+	        	SlotInventario espaco = slot;
+		        add(espaco);
 	        }
     }
 	
